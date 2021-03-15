@@ -16,17 +16,19 @@
     <hr/>
 
     <div :class='Info'>
-      <div :class='CopyRight'>
-        <p :class='body2'>© 2021 </p>
-        <p :class='body2'>Interchain GmbH</p>
-      </div>
-      <div :class='Contact'>
-        <p :class='body2'>Questions? Get in touch at</p>
-        <p :class='link'>contact@interchain.berlin</p>
-      </div>
-      <div :class='Newsletter'>
-        <!-- Import Newsleter <script/> -->
-        Newsletter
+      <div :class='InfoContainer'>
+        <div :class='CopyRight'>
+          <p :class='body2'>© 2021 </p>
+          <p :class='body2'>Interchain GmbH</p>
+        </div>
+        <div :class='Contact'>
+          <p :class='body2'>Questions? Get in touch at</p>
+          <p :class='link'>contact@interchain.berlin</p>
+        </div>
+        <div :class='Newsletter'>
+          <!-- Import Newsleter <script/> -->
+          Newsletter
+        </div>
       </div>
     </div>
   </div>
@@ -42,7 +44,8 @@ export default defineComponent({
       FooterContainer: 'bg-black text-white ...',
       SocailMedia: 'flex flex-wrap justify-center items-center text-center',
       Content: 'p-20 w-1/2 border-r border-gray-500 ',
-      Info: 'flex flex-wrap justify-between p-20',
+      Info: 'p-20',
+      InfoContainer: 'xl:container xl:mx-auto p-2 flex flex-wrap justify-between',
 
       body1: 'font-bold',
       body2: 'font-light',
