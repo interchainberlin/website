@@ -1,17 +1,38 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <!-- <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/> -->
+  <Navbar/>
+  <Banner/>
+  <About/>
+  <Projects/>
+  <OpenPositions/>
+  <Team/>
+  <Footer/>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import HelloWorld from './components/HelloWorld.vue';
+// import HelloWorld from './components/HelloWorld.vue';
+import Navbar from './components/H-Layout/Navbar.vue';
+import Banner from './components/H-Layout/Banner.vue';
+import About from './components/H-Layout/About.vue';
+import Projects from './components/H-Layout/Projects.vue'; 
+import OpenPositions from './components/H-Layout/Open_Positions.vue';
+import Team from './components/H-Layout/Team.vue'; 
+import Footer from './components/H-Layout/Footer.vue'; 
+
 
 export default defineComponent({
   name: 'App',
   components: {
-    HelloWorld
-  }
+    // HelloWorld
+    Navbar,
+    Banner,
+    About,
+    Projects,
+    OpenPositions,
+    Team,
+    Footer,
+  },
 });
 </script>
 

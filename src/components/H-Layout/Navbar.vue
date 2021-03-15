@@ -1,11 +1,11 @@
 <template>
-  <div></div>
+  <div>Navbar</div>
 </template>
 
 <script>
 import { defineComponent } from '@vue/composition-api'
 
 export default defineComponent({
-  name: '',
+  name: 'Navbar',
 })
 </script>
