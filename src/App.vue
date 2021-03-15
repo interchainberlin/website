@@ -1,13 +1,15 @@
 <template>
   <!-- <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/> -->
   <div :class='App'>
-  <Navbar/>
-  <Banner/>
-  <About/>
-  <Projects/>
-  <OpenPositions/>
-  <Team/>
-  <Footer/>
+    <Navbar/>
+    <div :class='AppContainer'>
+      <Banner/>
+      <About/>
+      <Projects/>
+      <OpenPositions/>
+      <Team/>
+      <Footer/>
+    </div>
   </div>
 </template>
 
@@ -37,7 +39,8 @@ export default defineComponent({
   },
   data() {
     return {
-      // App: 'border-2 border-red-500'
+      App: 'w-screen',
+      AppContainer: 'xl:container xl:mx-auto p-5',
     }
   }
 });
