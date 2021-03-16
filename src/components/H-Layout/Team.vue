@@ -6,7 +6,7 @@
      <!-- Map through teams from teams API -->
       <div :class='TeamList'>
         <div :class='Card' v-for='team in teams' :key='team.id'>
-          <!-- <img :class='Profile' :src='apiUrl + team.Profile[0].name'> -->
+          <!-- <img :class='Profile' :src='apiUrl + team.Profile[0].url'> -->
           <img :class='Profile' src='../../assets/User.png'>
           <div :class='Info'>
             <p :class='body1'>{{team.FirstName}} {{team.LastName}}</p>
