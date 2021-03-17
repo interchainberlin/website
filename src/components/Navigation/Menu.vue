@@ -22,7 +22,7 @@ export default defineComponent({
   },
   data() {
     return {
-      Menu: 'flex flex-wrap items-center space-x-6 ',
+      Menu: 'flex flex-wrap justify-between items-center space-x-6 pt-2 md:pt-0',
 
       header: 'text-white text-lg',
       subheader: 'text-white text-sm hover:font-bold hover:text-solid-blue',

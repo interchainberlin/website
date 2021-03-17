@@ -2,12 +2,15 @@
   <div :class='NavbarContainer'>
     <div :class='IGNav'>
       <div :class='IGContainer'>
-        <div :class='Container'>
+        <div :class='Container + Logo'>
           <img :class='Icon' src='../../assets/Logo.svg'/>
           <p :class='header'>Interchain GmbH</p>
         </div>
+
+        <hr/>
+
         <!-- Media querie Menu component -->
-        <Menu v-show='tablet ? !showMenu : showMenu' />
+        <Menu :class='Container' v-show='tablet ? !showMenu : showMenu' />
       </div>
     </div>
 
@@ -33,9 +36,9 @@ export default defineComponent({
       subheader: 'text-white text-sm',
 
       IGNav: 'bg-gray-800',
-      IGContainer: 'xl:container xl:mx-auto p-2 flex flex-wrap justify-between items-center',
-      ContainerMobile: 'invisible md:visible',
-      Container: 'md:visible flex flex-wrap items-center space-x-6 ',
+      IGContainer: 'xl:container xl:mx-auto p-2 flex flex-wrap justify-between items-center space-y-5 md:space-y-0 divide-y md:divide-y-0',
+      Container: 'w-full md:w-auto ',
+      Logo: 'md:visible flex flex-wrap items-center space-x-6 ',
       Icon: 'w-7 rounded-full',  
 
       showMenu: true,
