@@ -1,5 +1,5 @@
 {
-  "name": "interchain-test-2",
+  "name": "interchain-gmbh",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,11 +9,14 @@
   },
   "dependencies": {
     "@tailwindcss/postcss7-compat": "^2.0.3",
+    "@wearelucid/vue-mq": "^1.1.0",
     "autoprefixer": "^9",
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
-    "vue": "^3.0.0"
+    "vue": "^3.0.0",
+    "vue-mq": "1.0.1"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.33.0",
@@ -23,6 +26,7 @@
     "@vue/cli-plugin-typescript": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.0.0",
+    "@vue/composition-api": "^1.0.0-rc.5",
     "@vue/eslint-config-typescript": "^5.0.2",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0-0",
