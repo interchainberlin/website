@@ -14,7 +14,7 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import Vue from 'vue';
 import { defineComponent } from 'vue';
 import axios from 'axios';
 
@@ -27,11 +27,10 @@ import OpenPositions from './components/Open_Positions.vue';
 import Team from './components/Team.vue'; 
 import Footer from './components/Navigation/Footer.vue';
 
-// How do I set up media queries? 
+/* How do I set up media queries?
 
-/* 
-// import VueMq from 'vue-mq';
-const VueMq = require('vue-mq');
+// import VueMq from 'vue-mq'; // or 
+// const VueMq = require('vue-mq');
 import { MediaQueries } from 'plugins/mediaqueries';
 
 const breakpoints = {

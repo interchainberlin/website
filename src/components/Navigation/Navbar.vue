@@ -45,17 +45,5 @@ export default defineComponent({
       desktop: window.innerWidth <= Infinity,
     }
   },
-  // methods:{ 
-  //   handleView() {
-  //     this.mobile = window.innerWidth <= 450;
-  //     this.tablet = window.innerWidth <= 900;
-  //     this.laptop = window.innerWidth <= 1250;
-  //     this.desktop = window.innerWidth <= Infinity;
-  //   }
-  // },
-  MediaQueries(tablet) {
-    // this.handleView(); 
-    window.addEventListener('resize', tablet);
-  }
 })
 </script>

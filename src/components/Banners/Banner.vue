@@ -5,7 +5,6 @@
         <h1 :class='header'>Welcome to <br/> Interchain GmbH</h1>
         <p :class='subheader'>Building the internet of blockchains</p>
 
-        <!-- <img src='../../assets/Cube.png'/> -->
           <p>We are the maintainers of — </p>
         <div :class='BannerProject'>
           <!-- Map through projects from projects API --> 

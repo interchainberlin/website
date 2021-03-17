@@ -3,9 +3,9 @@
     <tag :class='UpdateTag'> Update </tag>
     <hr/>
     <!-- Pull update infrom from Blog DB -->
-    <p :class='body1'> ICF Update — March 1st </p>
+    <p :class='body1'> ICF Update — March 15th </p>
     <p :class='body2'> Description of newest IG / ICF update </p>
-    <a :class='link'> Read → </a>
+    <a :class='link' href='https://interchain-io.medium.com/' target='_blank'> Read → </a>
   </div>
 </template>
 

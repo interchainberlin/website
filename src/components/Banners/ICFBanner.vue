@@ -1,7 +1,7 @@
 <template>
   <div :class='ICFBanner'>
     <div :class='ICFContainer'>
-    <p :class='subheader'>Interchain Foundation <a :class='link' href=''> Our Grant Program → </a></p>
+    <p :class='subheader'>Interchain Foundation <a :class='link' href='https://docs.google.com/forms/d/e/1FAIpQLSdkgcNckqj6s9IkX0cSg6eiicYg2IPMASZeTQ2KO9kjnma28g/viewform' target='_blank'> Our Grant Program → </a></p>
     </div>
   </div>
 </template>
