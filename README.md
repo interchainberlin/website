@@ -8,13 +8,18 @@
   <h3> Interchain GmbH Website </h3>
   
   <br/>
-    <a href="https://naughty-roentgen-335a9c.netlify.app/"> Visit Website <a/>
+    <a href="https://naughty-roentgen-335a9c.netlify.app/"> Visit Website </a>
   <br/>
 </div>
 
 ---
 
-<img scr="./src/assets/MobileView.png" width=auto height=auto/>
+<div align="center">
+  <br/>
+  <img src="./src/assets/MobileView.png" alt="preview" />
+</div>
+
+<br/>
 
 ## Project setup
 
