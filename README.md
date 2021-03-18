@@ -21,32 +21,24 @@
 
 <br/>
 
-## Project setup
+[![Netlify Status](https://api.netlify.com/api/v1/badges/79d57511-d9a7-4709-ac94-24fa7e38de11/deploy-status)](https://app.netlify.com/sites/naughty-roentgen-335a9c/deploys)
 
----
-
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
+## Build Setup
 
 ```
-yarn serve
-```
+# install dependencies
+$ yarn install
 
-### Compiles and minifies for production
+# serve with hot reload at localhost:3000
+$ yarn run dev
+
+# build for production and launch server
+$ yarn run build
+$ yarn run start
+
+# Lint and fixe files
+$ yarn lint
 
 ```
-yarn build
-```
-
-### Lints and fixes files
-
-```
-yarn lint
-```
-
-### Customize configuration
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
