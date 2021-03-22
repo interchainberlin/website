@@ -22,7 +22,7 @@ export default defineComponent({
       AboutContainerWeb: 'md:flex-row justify-between items-center p-2 my-40',
       Content: 'w-full md:w-2/5 space-y-5',
       subheader: 'text-4xl',
-      body: 'text-base', 
+      body: '', 
     }
   }
 })

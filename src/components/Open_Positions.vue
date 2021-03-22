@@ -50,7 +50,7 @@ export default defineComponent({
       RightContent: 'flex flex-wrap justify-center md:justify-end p-20 md:p-0',
 
       subheader: 'text-4xl',
-      body: 'text-base', 
+      body: '', 
       bodyBold: 'font-bold',
 
       Roles: '',

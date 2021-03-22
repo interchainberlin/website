@@ -40,7 +40,7 @@ export default defineComponent({
   },
   data() {
     return {
-      App: 'w-screen',
+      App: 'w-screen text-xl ...',
       AppContainer: 'xl:container xl:mx-auto p-5',
 
       VUE_APP_API_URL: process.env.VUE_APP_API_URL,

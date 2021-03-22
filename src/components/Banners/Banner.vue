@@ -5,7 +5,7 @@
         <h1 :class='header'>Welcome to <br/> Interchain GmbH</h1>
         <p :class='subheader'>Building the internet of blockchains</p>
 
-        <p>We are the contributors and/or maintainers of — </p>
+        <p>We are the maintainers of — </p>
         <div :class='BannerProject'>
           <!-- Map through projects from projects API --> 
           <!-- <div v-for='project in projects' :key='project.id'> -->
