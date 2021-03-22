@@ -48,7 +48,7 @@ export default defineComponent({
       Icon: 'w-8 mb-5',
       Content: 'p-20 md:w-1/2 md:border-r md:border-gray-500 flex flex-col flex-wrap justify-center md:items-center md:content-center space-y-6',
       Info: 'p-20',
-      InfoContainer: 'xl:container xl:mx-auto p-2 flex flex-wrap flex-col md:flex-row justify-center content-center space-y-3 md:space-x-10',
+      InfoContainer: 'xl:container xl:mx-auto p-2 flex flex-wrap flex-col md:flex-row justify-between content-center space-y-3 md:space-x-10',
 
       body1: 'font-bold',
       body2: 'font-light',
