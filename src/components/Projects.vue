@@ -11,7 +11,9 @@
           <div :class='Info'>
             <!-- <img :class='Icon' :src='apiUrl + project.Icon[0].url' :alt='project.Icon[0].alternativeText' /> -->
             <div :class='Icons'>
-              <img :class='Icon' :src='project.IconURL'/>
+              <a :class='link' :href='project.URL' target='_blank'>
+                <img :class='Icon' :src='project.IconURL'/>
+              </a>
               <a :href='project.GithubURL' target='_blank'>
                 <img :class='Icon' src='../assets/Github.png'/>
               </a>
@@ -22,11 +24,33 @@
         </div>
       </div>
   </div>
+  <div :class='ProjectsContainer'>
+    <h3 :class='subheader'> Contribution Projects </h3>
+     <hr/>
+     <br/>
+
+      <div :class='ProjectList'>
+        <div :class='Card' v-for='project in ProjectsDataContribute' :key='project.id'>
+          <a :class='Tag + TagGradient' :href='project.URL' target='_blank'>{{project.Title}} →</a>
+          <div :class='Info'>
+            <div :class='Icons'>
+              <a :class='link' :href='project.URL' target='_blank'>
+                <img :class='Icon' :src='project.IconURL'/>
+              </a>
+              <a :href='project.GithubURL' target='_blank'>
+                <img :class='Icon' src='../assets/Github.png'/>
+              </a>
+            </div>
+            <div v-html='project.Description'></div>
+          </div>
+        </div>
+      </div>
+  </div>
 </template>
 
 <script>
 import { defineComponent } from '@vue/composition-api';
-import { ProjectsData } from '../data/ProjectsData.js'; 
+import { ProjectsData, ProjectsDataContribute } from '../data/ProjectsData.js'; 
 
 export default defineComponent({
   name: 'Projects',
@@ -36,6 +60,7 @@ export default defineComponent({
   data () {
     return {
       ProjectsData: ProjectsData,
+      ProjectsDataContribute: ProjectsDataContribute,
 
       ProjectsContainer: 'p-2 flex flex-col flex-wrap my-40 space-y-5',
       ProjectList: 'grid grid-cols-1 md:grid-cols-2 gap-10 my-10 ...',

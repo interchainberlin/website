@@ -19,7 +19,7 @@
             <hr/>
           </div>
         </div>
-        <p>We are the contributors of — </p>
+        <p>We are contributors to — </p>
         <div :class='BannerProject'>
           <div :class='ProjectLinks' v-for='project in ProjectsDataContribute' :key='project.id'>
             <a :class='link' :href='project.URL' target='_blank'>

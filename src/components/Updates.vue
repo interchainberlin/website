@@ -1,6 +1,8 @@
 <template>
     <div :class="UpdateContainerMobile + UpdateContainerWeb">
-      <tag :class="UpdateTag"> Update </tag>
+      <a :class="link" href="https://interchain-io.medium.com/" target="_blank">
+        <tag :class="UpdateTag"> Updates </tag>
+      </a>
       <hr />
       <p :class="body1">ICF Update — March 15th</p>
       <p :class="body2">Interchain Foundation</p>

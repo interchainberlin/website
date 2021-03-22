@@ -13,7 +13,7 @@
         </div>
         <div :class='Contact'>
           <p :class='body2'>Questions? Get in touch at</p>
-          <a :class='link' href='mailto:contact@interchain.berlin'>contact@interchain.berlin</a>
+          <a :class='link' href='mailto:contact@interchain.berlin' target='_blank'>contact@interchain.berlin</a>
         </div>
         <div :class='SocailMediaContainer'>
           <!-- Import Newsleter <script/> -->

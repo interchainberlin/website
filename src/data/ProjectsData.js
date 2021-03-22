@@ -1,25 +1,9 @@
 export const ProjectsData = [
   {
-    id: 1,
-    Title: "Interchain Foundation",
-    IconURL: "https://pbs.twimg.com/profile_images/1017596798729244672/tNbKZuTE.jpg",
-    URL: "https://interchain.io/",
-    Description: "We believe that open-source, cryptographic, consensus-driven, economic networks hold the key to an anti-fragile global economic system and equal opportunity for all. Our current focus is on the interoperable blockchain technology of the Cosmos Network.",
-    GithubURL: "https://github.com/interchainio",
-    publishedAt: "2021-03-17T23:41:26.017Z",
-    createdAt: "2021-03-17T23:41:24.683Z",
-    updatedAt: "2021-03-18T00:17:24.753Z",
-    Icon: [],
-    },
-
-
-
-
-  {
   id: 4,
   Title: "Gaia",
   IconURL: "https://dl.airtable.com/.attachmentThumbnails/a1037b7f72f0f2397d0492f0b9bce8e3/31f18e95",
-  URL: "https://hub.cosmos.network/main/gaia-tutorials/installation.html",
+  URL: "https://hub.cosmos.network/main/hub-overview/overview.html",
   Description: "Gaia is the name of the Cosmos SDK application for the Cosmos Hub. The Cosmos Hub is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network. The primary token of the Cosmos Hub is the ATOM, but the Hub will support many tokens in the future. The role of a Hub is to facilitate transfers between blockchains. If a blockchain connects to a Hub via IBC, it automatically gains access to all the other blockchains that are connected to it.",
   GithubURL: "https://github.com/cosmos/gaia",
   publishedAt: "2021-03-17T23:41:26.017Z",
@@ -59,50 +43,7 @@ export const ProjectsData = [
   }
   ],
   },
-  {
-  id: 2,
-  Title: "Tendermint",
-  IconURL: "https://dl.airtable.com/.attachmentThumbnails/7e71ac7fbf01606c2065e5691b0c62ae/ae422063",
-  URL: "https://tendermint.com/core/",
-  Description: "Tendermint Core The leading BFT engine for building blockchains. Write your application in any language. Use Tendermint Core to replicate it on machines across the world. → Byzantine-Fault Tolerant → Language Agnostic → State Machine Replication → Fast Finality",
-  GithubURL: "https://github.com/tendermint",
-  publishedAt: "2021-03-17T23:32:49.354Z",
-  createdAt: "2021-03-17T23:32:45.690Z",
-  updatedAt: "2021-03-18T00:17:54.042Z",
-  Icon: [
-  {
-  id: 21,
-  name: "Tendermint.png",
-  alternativeText: "",
-  caption: "",
-  width: 400,
-  height: 400,
-  formats: {
-  thumbnail: {
-  ext: ".png",
-  url: "/uploads/thumbnail_Tendermint_0914aa6e90.png",
-  hash: "thumbnail_Tendermint_0914aa6e90",
-  mime: "image/png",
-  name: "thumbnail_Tendermint.png",
-  path: null,
-  size: 25.74,
-  width: 156,
-  height: 156,
-  }
-  },
-  hash: "Tendermint_0914aa6e90",
-  ext: ".png",
-  mime: "image/png",
-  size: 67.72,
-  url: "/uploads/Tendermint_0914aa6e90.png",
-  previewUrl: null,
-  provider: "local",
-  providerMetadata: null,
-  createdAt: "2021-03-17T23:41:40.024Z",
-  updatedAt: "2021-03-17T23:41:40.054Z",
-  }
-  ],
-  },
+
   {
   id: 3,
   // Title: "Inter-Blockchain Communication",
@@ -148,12 +89,70 @@ export const ProjectsData = [
   }
   ],
   },
+
+  {
+    id: 2,
+    Title: "Tendermint",
+    IconURL: "https://dl.airtable.com/.attachmentThumbnails/7e71ac7fbf01606c2065e5691b0c62ae/ae422063",
+    URL: "https://docs.tendermint.com/",
+    Description: "Tendermint Core The leading BFT engine for building blockchains. Write your application in any language. Use Tendermint Core to replicate it on machines across the world. → Byzantine-Fault Tolerant → Language Agnostic → State Machine Replication → Fast Finality",
+    GithubURL: "https://github.com/tendermint",
+    publishedAt: "2021-03-17T23:32:49.354Z",
+    createdAt: "2021-03-17T23:32:45.690Z",
+    updatedAt: "2021-03-18T00:17:54.042Z",
+    Icon: [
+    {
+    id: 21,
+    name: "Tendermint.png",
+    alternativeText: "",
+    caption: "",
+    width: 400,
+    height: 400,
+    formats: {
+    thumbnail: {
+    ext: ".png",
+    url: "/uploads/thumbnail_Tendermint_0914aa6e90.png",
+    hash: "thumbnail_Tendermint_0914aa6e90",
+    mime: "image/png",
+    name: "thumbnail_Tendermint.png",
+    path: null,
+    size: 25.74,
+    width: 156,
+    height: 156,
+    }
+    },
+    hash: "Tendermint_0914aa6e90",
+    ext: ".png",
+    mime: "image/png",
+    size: 67.72,
+    url: "/uploads/Tendermint_0914aa6e90.png",
+    previewUrl: null,
+    provider: "local",
+    providerMetadata: null,
+    createdAt: "2021-03-17T23:41:40.024Z",
+    updatedAt: "2021-03-17T23:41:40.054Z",
+    }
+    ],
+    },
   ]
 
 
   export const ProjectsDataContribute = [
     {
-    id: 1,
+      id: 1,
+      Title: "ICF Funding Program",
+      IconURL: "https://pbs.twimg.com/profile_images/1017596798729244672/tNbKZuTE.jpg",
+      URL: "https://github.com/interchainio/funding",
+      Description: "We believe that open-source, cryptographic, consensus-driven, economic networks hold the key to an anti-fragile global economic system and equal opportunity for all. Our current focus is on the interoperable blockchain technology of the Cosmos Network.",
+      GithubURL: "https://github.com/interchainio",
+      publishedAt: "2021-03-17T23:41:26.017Z",
+      createdAt: "2021-03-17T23:41:24.683Z",
+      updatedAt: "2021-03-18T00:17:24.753Z",
+      Icon: [],
+    },
+  
+    {
+    id: 2,
     Title: "Cosmos",
     IconURL: "https://dl.airtable.com/.attachmentThumbnails/3768c2bd4188a60ff7f73b197080e077/3d5c7b32",
     URL: "https://cosmos.network/",
