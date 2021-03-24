@@ -21,7 +21,7 @@
 
 <br/>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/79d57511-d9a7-4709-ac94-24fa7e38de11/deploy-status)](https://interchain-berlin-v1.netlify.app/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/79d57511-d9a7-4709-ac94-24fa7e38de11/deploy-status)](https://app.netlify.com/sites/interchain-berlin-v1/deploys)
 
 ## Build Setup
 
