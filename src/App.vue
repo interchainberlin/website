@@ -55,12 +55,14 @@ export default defineComponent({
   async mounted () {
     try {
       const getProjects = await axios.get(`${this.VUE_APP_API_URL}/projects`)
+      console.log("teams data: " + getProjects.data)
       this.projects = getProjects.data
 
       const getJobs = await axios.get(`${this.VUE_APP_API_URL}/jobs`)
       this.jobs = getJobs.data
 
-      const getTeams = await axios.get(`${this.VUE_APP_API_URL}/teams`)
+      // const getTeams = await axios.get(`${this.VUE_APP_API_URL}/teams`)
+      const getTeams = await axios.get(`https://api.interchain.berlin/teams`)
       this.teams = getTeams.data
 
       const getArticles = await axios.get(`${this.VUE_APP_API_URL}/articles`)
