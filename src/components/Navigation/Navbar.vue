@@ -9,9 +9,8 @@
 
         <br/>
         
-        <div :class='Container'>
-        <!-- Media querie Menu component -->
-        <Menu class='menu' v-show='tablet ? !showMenu : showMenu' />
+        <div :class='Container' class="hideOnTablet">
+          <Menu />
         </div>
       </div>
     </div>
@@ -24,6 +23,20 @@
 import { defineComponent } from '@vue/composition-api';
 import Menu from './Menu.vue';
 import ICFBanner from '../Banners/ICFBanner.vue';
+
+// const debounce = function(func, wait, immediate) {
+// 	let timeout;
+// 	return function(...args) {
+// 		const later = function() {
+// 			timeout = null;
+// 			if (!immediate) func.apply(this, args);
+// 		};
+// 		const callNow = immediate && !timeout;
+// 		clearTimeout(timeout);
+// 		timeout = setTimeout(later, wait);
+// 		if (callNow) func.apply(this, args);
+// 	}
+// };
 
 export default defineComponent({
   name: 'Navbar',
@@ -46,18 +59,34 @@ export default defineComponent({
       size: 'tablet',
 
       showMenu: true,
-      mobile: window.innerWidth <= 450,
-      tablet: window.innerWidth <= 900,
-      laptop: window.innerWidth <= 1250,
-      desktop: window.innerWidth <= Infinity,
+      windowWidth: window.innerWidth
     }
   },
+  // computed: {
+  //     tablet() {
+  //         return this.windowWidth <= 900
+  //     }
+  // },
+  // mounted() {
+  //   this.$nextTick(() => {
+  //     window.addEventListener('resize', debounce(this.onResize, 50));
+  //   })
+  // },
+  // beforeUnmount() { 
+  //   window.removeEventListener('resize', debounce(this.onResize, 50)); 
+  // },
+  // methods: {  
+  //   onResize() {
+  //     console.log('onResize')
+  //     this.windowWidth = window.innerWidth
+  //   }
+  // }
 })
+
 </script>
 
 <style>
 @media (max-width: 900px) {
- .menu {visibility: hidden;}
- .menu {display: none;}
+ .hideOnTablet {display: none;}
 }
 </style>
