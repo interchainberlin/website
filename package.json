@@ -9,15 +9,13 @@
   },
   "dependencies": {
     "@tailwindcss/postcss7-compat": "^2.0.3",
-    "@wearelucid/vue-mq": "^1.1.0",
     "autoprefixer": "^9",
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "v-switch-case": "^1.0.3",
-    "vue": "^3.0.0",
-    "vue-mq": "1.0.1"
+    "vue": "^3.0.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.33.0",
