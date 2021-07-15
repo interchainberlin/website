@@ -66,7 +66,7 @@ export default defineComponent({
       this.projects = getProjects.data;
 
       const getTeamMembers = await axios.get(
-        `${this.VUE_APP_API_URL}/teamMembers`
+        `${this.VUE_APP_API_URL}/teamMembers?_sort=FirstName:ASC`
       );
       this.teamMembers = getTeamMembers.data;
 
